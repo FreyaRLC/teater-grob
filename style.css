@@ -6,6 +6,7 @@
 
 html {
   --light-blue: #3f90ac;
+  --dark-grey: #171717;
 }
 
 img,
@@ -175,7 +176,7 @@ h4 {
 }
 
 button {
-  background: black;
+  background: var(--dark-grey);
   color: white;
   border: none;
   padding: 7px 30px;
@@ -349,7 +350,7 @@ footer ul {
 
   header {
     height: 120px;
-    background: var(--light-blue);
+    background: var(--dark-grey);
   }
 
   h1 {
