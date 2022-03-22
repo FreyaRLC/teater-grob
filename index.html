@@ -34,6 +34,8 @@
     </header>
     <main>
       <section id="first_section">
+        <div class="hero_wrapper">
+        <div id="video_overlay"></div>
         <video id="hero-video" muted autoplay loop poster="">
           <source
             src="https://tessafan.dk/kea/05_indhold/02_redesign/Forside.mp4"
@@ -41,33 +43,31 @@
           <source src="" />
         </video>
         <h1>Grob skaber samtaler</h1>
+       
+      </div>
       </section>
       <section id="second_section">
         <h2>Stem om samtalecafe emne :))))</h2>
-        <form id="vote">
-          <input
-            type="radio"
-            id="option_one"
-            name="convo_subject"
-            value="option_one"
-          />
-          <label for="option_one">option one</label><br />
-          <input
-            type="radio"
-            id="option_two"
-            name="convo_subject"
-            value="option_two"
-          />
-          <label for="option_two">option two</label><br />
-          <input
-            type="radio"
-            id="option_three"
-            name="convo_subject"
-            value="option_three"
-          />
-          <label for="option_three">option three</label><br />
-          <button>submit</button>
-        </form>
+        <h4>Hver uge holder vi samtale cafe bla bla bla</h4>
+          <form id="cafe_vote">
+      <label for="option_one" class="radio_common">
+        <input type="radio" name="conversation_cafe" id="option_one" value="option_one" class="radio-input" />
+        <div class="radio"></div>
+        option one
+      </label>
+    <form>
+      <label for="option_two" class="radio_common">
+        <input type="radio" name="conversation_cafe" id="option_two" value="option_two" class="radio-input" />
+        <div class="radio"></div>
+        option two
+      </label>
+    <form>
+      <label for="option_three" class="radio_common">
+        <input type="radio" name="conversation_cafe" id="option_three" value="option_three" class="radio-input" />
+        <div class="radio"></div>
+        option three
+      </label>
+    </form>
       </section>
       <section id="third_section">
         <div class="col_left">
@@ -97,7 +97,29 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="col_left"> 
+        <div class="footer_content">
+          <h4>Kontakt</h4>
+          <address>
+            Teater Grob<br>
+            Nørrebrogade 37<br>
+            2200 København N<br>
+            35 30 05 00<br>
+          </address>
+        </div>
+        <div class="footer_content">
+          <ul><li>Mandage, tirsdage og onsdage kl 17-20 i spilleperioder</li>
+          <li>billet@grob.dk</li></ul>
+        </div>
+      </div>
+      <div class="col_right">
+        <div class="so-me">
+          <img src="img/fb-logo.png" alt=""><img src="img/inst-logo.png" alt=""><img src="img/twt-logo.png" alt=""><img src="img/yt-logo.png" alt="">
+        </div>
+        <div class="tickets"><img src="img/TB-logo.png" alt="Logo for teaterbilletter"></div>
+      </div>
+    </footer>
     <script src="burgermenu.js"></script>
   </body>
 </html>
