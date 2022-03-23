@@ -21,6 +21,8 @@ html {
   --pink: #f52f59;
   --hot-green: #0af530;
   --blue: #6116f5;
+
+  --new-blue: #2a0f61;
 }
 
 body {
@@ -220,7 +222,7 @@ button:hover {
 }
 
 .billet_kob {
-  background-color: #2a0f61;
+  background-color: var(--new-blue);
   /* border-bottom: #4615a8 5px solid;
   border-top: #6116f5 5px solid; */
 
@@ -290,7 +292,7 @@ button:hover {
 
 /* Footer start */
 footer {
-  background: var(--blue);
+  background: var(--new-blue);
   color: white;
   padding: 1rem;
 }
