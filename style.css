@@ -9,6 +9,10 @@ html {
   --dark-grey: #171717;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 img,
 video {
   max-width: 100%;
