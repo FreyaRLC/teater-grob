@@ -424,7 +424,7 @@ footer ul {
   }
 
   #video_overlay {
-    height: 100%;
+    height: 85vh;
     opacity: 50%;
   }
 }
