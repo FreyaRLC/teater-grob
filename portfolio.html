@@ -37,6 +37,12 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
       }
+
+      .photo_grid video {
+        grid-column: span 2;
+        object-fit: cover;
+        width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -64,10 +70,10 @@
           <source src="" />
         </video>
         <div class="photo_grid">
-          <img src="https://picsum.photos/400" alt="" /><img
-            src="https://picsum.photos/400"
-            alt=""
-          /><img src="https://picsum.photos/400" alt="" /><img
+          <video controls>
+            <source src="http://freyaluntang.dk/kea/08/videoer/splash.mp4" />
+            <source src="" /></video
+          ><img src="img/IMG_7927_kvadrat.jpg" alt="" /><img
             src="https://picsum.photos/400"
             alt=""
           />
