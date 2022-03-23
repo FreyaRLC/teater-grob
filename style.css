@@ -222,10 +222,10 @@ button:hover {
 }
 
 .billet_kob {
+  margin-top: 3em;
   background-color: var(--new-blue);
   /* border-bottom: #4615a8 5px solid;
   border-top: #6116f5 5px solid; */
-
   padding: 1rem;
   width: 100vw;
   margin: 3rem 0;
@@ -291,6 +291,11 @@ button:hover {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
+/* #third_section .col_left {
+  filter: drop-shadow(8px 8px 1px --green;
+}
+} */
 
 /* Footer start */
 footer {
