@@ -90,7 +90,7 @@ a {
 #menu a {
   color: white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 a:hover {
@@ -293,10 +293,9 @@ button:hover {
   margin-bottom: 30px;
 }
 
-/* #third_section .col_left {
-  filter: drop-shadow(8px 8px 1px --green;
+#third_section .col_left {
+  filter: opacity(90%);
 }
-} */
 
 /* Footer start */
 footer {
