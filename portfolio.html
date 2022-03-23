@@ -6,6 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      section {
+        margin: 1.5rem;
+      }
+
+      #grid_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      #grid_section video,
+      #grid_section img {
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .photo_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="index.html" class="logo_container"
+        ><p id="logo">Teater Grob</p></a
+      >
+      <nav>
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="">Kampagne-site</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <video controls poster="img/poster.png">
+          <source src="" />
+          <source src="" />
+        </video>
+      </section>
+      <section id="grid_section">
+        <video controls poster="https://picsum.photos/900">
+          <source src="" />
+          <source src="" />
+        </video>
+        <div class="photo_grid">
+          <img src="https://picsum.photos/400" alt="" /><img
+            src="https://picsum.photos/400"
+            alt=""
+          /><img src="https://picsum.photos/400" alt="" /><img
+            src="https://picsum.photos/400"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_content">
+        <h4>Gruppe 1</h4>
+        <ul>
+          <li>Regitze</li>
+          <li>Alex</li>
+          <li>Chris</li>
+          <li>Circeline</li>
+          <li>Freya</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
