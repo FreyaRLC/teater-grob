@@ -144,6 +144,10 @@ h4 {
   margin-bottom: 3rem;
 }
 
+h5 {
+  margin-bottom: 3rem;
+}
+
 #third_section h3,
 #third_section h4 {
   text-align: center;
@@ -185,6 +189,14 @@ button {
   text-transform: uppercase;
 }
 
+.billet_cafe {
+  margin: 2rem;
+}
+
+.billet_kob {
+  background-color: #3f90ac;
+  padding: 1rem;
+}
 /* radio start */
 
 .radio_common {
