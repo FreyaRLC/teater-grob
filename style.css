@@ -229,6 +229,8 @@ button:hover {
   padding: 1rem;
   width: 100vw;
   margin: 3rem 0;
+  display: grid;
+  justify-content: center;
 }
 
 .billet_kob h3 {
