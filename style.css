@@ -228,6 +228,7 @@ button:hover {
   border-top: #6116f5 5px solid; */
   padding: 1rem;
   width: 100vw;
+  margin: 3rem 0;
 }
 
 .billet_kob h3 {
