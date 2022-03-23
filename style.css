@@ -199,6 +199,7 @@ button {
 .billet_kob {
   background-color: #3f90ac;
   padding: 1rem;
+  width: 100vw;
 }
 
 /* radio start */
@@ -316,6 +317,7 @@ footer ul {
     max-width: 40px;
     object-fit: contain;
   }
+
   #second_section {
     display: grid;
     place-content: center;
